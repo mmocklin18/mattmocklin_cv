@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+    margin: 30px;
+    background-color: #A3B18A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3A5A40;
+    border-style: solid;
+    border-color:#344E41;
+    color: white;
+    padding: 5px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #3A5A40;
+    border-style: solid;
+    border-color:#344E41;
+    color: white;
+    padding: 5px;
+}
+
+section {
+    margin-bottom:30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color:#A3B18A;
+}
+
+a:visited {
+    color: #A3B18A;
+}
+a:hover {
+    color: rgb(36, 155, 0);
+}
+
+
+.splash {
+    background-color:#344E41;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+  
+.splash > h1 {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 50px;
+    color: white;
+    margin:10px;
+}
+
+.splash > img {
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.address {
+    font-weight: 700;
+    font-size:20px;
+    color: #A3B18A
+}
+
+.tagline {
+    text-align: center;
+    font-size: 16px;
+    color: #A3B18A;
+}
+
+hr {
+    height: 0px;
+    width: 80%;
+    border-color:#3A5A40;
+    border-style: dashed;
+    margin-top:25px;
+    margin-bottom:25px
+}
+
+h2 {
+  font-family:"Raleway", sans-serif;
+  color:#3A5A40;
+}
+
+.education > p {
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 15px;
+}
+
+.school {
+    font-size: 19px;
+}
+
+.honors {
+    margin-top:5px;
+    margin-bottom:5px;
+    display: grid;
+
+}
+
+.honors > dl {
+    margin-top:0;
+    margin-left:15px;
+    font-size: 17px;
+    grid-template-columns: repeat(2, 200px);
+    gap: 10px;
+    display: grid;
+    columns: 2;
+}
+
+.honors > dl > dd {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.skills > ul {
+    list-style-type: square;
+}
+
+.leadership > dl {
+    margin-top:0;
+    margin-left:15px;
+    font-size: 17px;
+    grid-template-columns: repeat(2, 400px);
+    gap: 25px;
+    display: grid;
+    columns: 2;
+}
+
+.leadership > dl > dt {
+    font-weight: bold;
+}
+
+.leadership > dl > dt > a:link, a:hover, a:visited {
+    text-decoration: none;
+}
+
+.leadership > dl > dd {
+    font-style: italic;
+}
+
+.leadership > dl > dt > a:link {
+    color:black;
+}
+
+.leadership > dl > dt > a:visited {
+    color:black;
+}
+
+.leadership > dl > dt > a:hover {
+    color: rgb(36, 155, 0);
+}
+.three-col {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+
+}
+
+.card {
+background-color: #588157;
+border-style: solid;
+border-color: #344E41;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+margin:10px;
+padding:15px;
+border-radius: 20px;
+}
+
+
+
+.card > img {
+    display: block;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.one-col {
+    background-color:#588157;
+    display: grid;
+    grid-template-columns: 1;
+    justify-items: center;
+    padding: 10px;
+}
+
+.one-col > input {
+    margin-left: 50px;
+    background-color: #A3B18A;
+    width: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.one-col > p > input {
+    width: 200px;
+    background-color: #A3B18A;
+}
+.one-col > p > textarea {
+    margin-right:27px;
+    background-color: #A3B18A;
+    width: 200px;
+    border-style: inset;
+    border-width: 2px;
+}
